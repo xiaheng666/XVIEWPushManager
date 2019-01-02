@@ -1,0 +1,27 @@
+PODS:
+  - UMCCommon (1.5.3)
+  - UMCPush (3.2.3):
+    - UMCCommon
+  - XVIEWPushManager (0.1.0):
+    - UMCPush
+
+DEPENDENCIES:
+  - XVIEWPushManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMCCommon
+    - UMCPush
+
+EXTERNAL SOURCES:
+  XVIEWPushManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
+  XVIEWPushManager: ed5a514801966dfd9331ea7f81b05bacdf8d0601
+
+PODFILE CHECKSUM: 67ec4f709c386267b492bc4e1e9bb6433c16ca36
+
+COCOAPODS: 1.5.3

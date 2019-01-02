@@ -1,0 +1,6 @@
+framework module XVIEWPushManager {
+  umbrella header "XVIEWPushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

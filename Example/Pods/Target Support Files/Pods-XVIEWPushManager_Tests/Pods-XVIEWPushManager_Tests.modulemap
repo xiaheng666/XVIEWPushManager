@@ -1,0 +1,6 @@
+framework module Pods_XVIEWPushManager_Tests {
+  umbrella header "Pods-XVIEWPushManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
