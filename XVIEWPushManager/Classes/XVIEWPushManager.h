@@ -19,7 +19,7 @@
  * 注册推送
  @param param    launchOptions 启动参数
  */
-- (id)registerPush:(NSDictionary *)param;
+- (void)registerPush:(NSDictionary *)param;
 
 /**
  * 注册设备
@@ -36,29 +36,30 @@
  * 设置别名
  @param param           alias   别名
  */
-- (id)setAlias:(NSDictionary *)param;
+- (void)setAlias:(NSDictionary *)param;
 
 /**
  * 删除别名
  @param param           alias   别名
  */
-- (id)deleteAlias:(NSDictionary *)param;
+- (void)deleteAlias:(NSDictionary *)param;
 
 /**
  * 设置tags
  @param param           tags   tags的数组，单个tag最大允许长度128字节，编码UTF-8，超过长度绑定失败
  */
-- (id)addTags:(NSDictionary *)param;
+- (void)addTags:(NSDictionary *)param;
 
 /**
  * 删除tags
  @param param           tags
  */
-- (id)deleteTags:(NSDictionary *)param;
+- (void)deleteTags:(NSDictionary *)param;
 
 /**
  * 获取所有tags
+ @param param           callback 回调方法
  */
-- (id)getAllTags;
+- (void)getAllTags:(NSDictionary *)param;
 
 @end
